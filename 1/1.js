@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFile("/Users/dylancancelliere/aoc/1/1.txt", "utf8", (err, data) => {
+fs.readFile("/Users/dylancancelliere/advent-of-code-2021/1/1.txt", "utf8", (err, data) => {
   if (err) {
     console.error(err);
     return;
