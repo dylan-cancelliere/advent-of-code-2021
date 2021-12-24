@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { arrayBuffer } = require("stream/consumers");
 
 function decode(decodedVals, letters) {
   let temp = [...letters].sort().join("");
